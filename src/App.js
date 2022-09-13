@@ -1,6 +1,7 @@
 import "./App.css";
-import Inline from "./Components/Inline";
-import StyleSheet from "./Components/StyleSheet";
+import Form from "./Components/Form";
+// import Inline from "./Components/Inline";
+// import StyleSheet from "./Components/StyleSheet";
 // import NameList from "./Components/NameList";
 // import EventBind from "./Components/EventBind";
 // import ParentComponents from "./Components/ParentComponents";
@@ -16,8 +17,9 @@ import StyleSheet from "./Components/StyleSheet";
 function App() {
   return (
     <div className="App">
-      <Inline />
-      <StyleSheet primary={true} />
+      <Form />
+      {/* <Inline /> */}
+      {/* <StyleSheet primary={true} /> */}
       {/* <NameList /> */}
       {/* <UserGreeting /> */}
       {/* <ParentComponents /> */}
