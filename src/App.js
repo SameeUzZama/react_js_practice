@@ -1,5 +1,13 @@
 import "./App.css";
-import Refs from "./Components/Refs";
+// import ComponentA from "./Components/ComponentA";
+// import { UserProvider } from "./Components/UserContext";
+// import ClickCounterTwo from "./Components/ClickCounterTwo";
+// import HoverdCounterTwo from "./Components/HoverdCounterTwo";
+// import NewCounteTwo from "./Components/NewCounteTwo";
+// import User from "./Components/User";
+// import ClickCounter from "./Components/ClickCounter";
+// import HoverCounter from "./Components/HoverCounter";
+// import Refs from "./Components/Refs";
 // import ParentComp from "./Components/ParentComp";
 // import PureComp from "./Components/PureComp";
 // import Tables from "./Components/Tables";
@@ -23,7 +31,31 @@ import Refs from "./Components/Refs";
 function App() {
   return (
     <div className="App">
-      <Refs />
+      {/* <UserProvider value="Jack">
+        <ComponentA />
+      </UserProvider> */}
+      {/* <NewCounteTwo
+        render={(count, Increment) => (
+          <ClickCounterTwo
+            count={count}
+            Increment={Increment}
+          ></ClickCounterTwo>
+        )}
+      />
+      <NewCounteTwo
+        render={(count, Increment) => (
+          <HoverdCounterTwo
+            count={count}
+            Increment={Increment}
+          ></HoverdCounterTwo>
+        )}
+      /> */}
+      {/* <ClickCounterTwo /> */}
+      {/* <HoverdCounterTwo /> */}
+      {/* <User render={(isLoggedIn) => (isLoggedIn ? "JACK" : "Guest")} /> */}
+      {/* <ClickCounter /> */}
+      {/* <HoverCounter /> */}
+      {/* <Refs /> */}
       {/* <ParentComp /> */}
       {/* <PureComp /> */}
       {/* <Tables /> */}
