@@ -1,5 +1,11 @@
 import "./App.css";
-import Form from "./Components/Form";
+import Refs from "./Components/Refs";
+// import ParentComp from "./Components/ParentComp";
+// import PureComp from "./Components/PureComp";
+// import Tables from "./Components/Tables";
+// import Fragment from "./Components/Fragment";
+// import LifeCycleA from "./Components/LifeCycleA";
+// import Form from "./Components/Form";
 // import Inline from "./Components/Inline";
 // import StyleSheet from "./Components/StyleSheet";
 // import NameList from "./Components/NameList";
@@ -17,7 +23,13 @@ import Form from "./Components/Form";
 function App() {
   return (
     <div className="App">
-      <Form />
+      <Refs />
+      {/* <ParentComp /> */}
+      {/* <PureComp /> */}
+      {/* <Tables /> */}
+      {/* <Fragment /> */}
+      {/* <LifeCycleA /> */}
+      {/* <Form /> */}
       {/* <Inline /> */}
       {/* <StyleSheet primary={true} /> */}
       {/* <NameList /> */}
